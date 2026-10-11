@@ -1,0 +1,39 @@
+name: kwaili
+description: "كويلي — تطبيق الزبون"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  path_parsing: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Tajarib
+      fonts:
+        - asset: assets/fonts/Tajarib-Light.otf
+          weight: 300
+        - asset: assets/fonts/Tajarib-Light.otf
+          weight: 400
+        - asset: assets/fonts/Tajarib-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Tajarib-Bold.otf
+          weight: 600
+        - asset: assets/fonts/Tajarib-Bold.otf
+          weight: 700
+        - asset: assets/fonts/Tajarib-ExtraBold.otf
+          weight: 800
+        - asset: assets/fonts/Tajarib-ExtraBold.otf
+          weight: 900
